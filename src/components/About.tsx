@@ -48,7 +48,7 @@ const About = () => {
 
           {/* Image */}
           <div className="relative">
-            <div className="relative rounded-3xl overflow-hidden shadow-2xl w-[330px] h-[540px] mx-0">
+            <div className="relative rounded-3xl overflow-hidden shadow-2xl w-full max-w-[330px] aspect-[11/18] mx-0">
               <img
                 src="/sobremim.png"
                 alt="Aline Castro no consultório, demonstrando cuidado e profissionalismo"

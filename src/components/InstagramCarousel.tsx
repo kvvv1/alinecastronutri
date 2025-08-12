@@ -88,9 +88,9 @@ const InstagramCarousel = () => {
             >
               {instagramPosts.map((post) => (
                 <div key={post.id} className="w-full flex-shrink-0 px-2">
-                  <div className="max-w-[540px] mx-auto">
+                  <div className="w-full max-w-[540px] mx-auto">
                     <blockquote
-                      className="instagram-media bg-white border-0 m-0 p-0 min-w-[326px] max-w-[540px] w-full"
+                      className="instagram-media bg-white border-0 m-0 p-0 max-w-[540px] w-full"
                       data-instgrm-permalink={post.permalink}
                       data-instgrm-version="14"
                     />
